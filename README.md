@@ -1,8 +1,13 @@
 # Base de programción para 1DAW
 Despliegue de la infraestructura necesaria para la asignatura de programación.
-Ejemplo del cálculo de área de un rectángulo, a través de:
+Hay dos ejemplos disponibles en dos carpetas.
+
+Ejemplo del cálculo de área de un rectángulo (ejemploIntroDatos), a través de:
 - Un index.html, el cual contiene un formulario.
 - Un back.php con la lógica de negocio que corre por detrás.
+
+Ejemplo de la suma de 4 números (ejemploBucle), a través de:
+- Un index.php
 
 ## Pasos a seguir la primera vez
 - Clonar el repositorio en la carpeta deseada.
