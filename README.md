@@ -16,9 +16,6 @@ Hay 4 ejemplos disponibles en dos carpetas.
 - Un index.php
 En este ejemlo se introduce el concepto de sesiones y variables de sesión para ir acumulando los valores de los intentos.
 
-## Ejemplo de phpunit mediante:
-- Una clase de ejemplo Classes/Calc.php
-- Una prueba de ejemplo Tests/CalcTest.php
 
 ### Pasos a seguir la primera vez
 - Clonar el repositorio en la carpeta deseada.
