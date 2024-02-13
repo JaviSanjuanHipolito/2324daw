@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Pago</title>
+    <title>Añadir visita</title>
+    <link rel="stylesheet" href="añadir.css">
+
 </head>
 <body>
 
-    <h2>Formulario de Pago</h2>
+    <h2>Añadir visita</h2>
 
     <form action="#" method="post">
         <label for="nombre">Nombre del Paciente:</label>

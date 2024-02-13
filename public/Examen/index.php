@@ -40,11 +40,11 @@ function formatearMoneda($importe) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla de Pacientes</title>
-    <link real="styleheet" href="forma.cc">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
-<div class="container">
+<div class="mi-tabla">
     <table>
         <thead>
             <tr>
