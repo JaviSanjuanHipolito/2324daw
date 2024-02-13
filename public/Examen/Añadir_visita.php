@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Añadir visita</title>
-    <link rel="stylesheet" href="añadir.css">
+    <link rel="stylesheet" href="./CSS/añadir.css">
 
 </head>
 <body>

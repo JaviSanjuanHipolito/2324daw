@@ -1,4 +1,5 @@
 <?php
+
 function miAutoload($claseDesconocida){
     $fichero = "clases/{$claseDesconocida}.php";
     if(file_exists($fichero)){

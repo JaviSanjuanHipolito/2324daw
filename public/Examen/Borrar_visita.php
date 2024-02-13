@@ -1,12 +1,11 @@
 <?php
 
 require_once "autoloader.php";
-$clinic = new clinic("data.csv");
+$clinica = new $clinica("data.csv");
 
 if (isset($_GET['id'])) {
-    $clinic->delete($_GET['id']);
+    $clinica->delete($_GET['id']);
 } else {
-    $clinic->delete(null);
+    $clinica->delete(null);
 }
 header("Location: index.php");  
-

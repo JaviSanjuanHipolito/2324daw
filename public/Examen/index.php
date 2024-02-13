@@ -1,37 +1,19 @@
 <?php
 
-// Ruta al archivo CSV
 $csvFile = 'data.csv';
-
-// Lee el archivo CSV
 $rows = array_map('str_getcsv', file($csvFile));
 
-// Recorre los datos y muestra cada fila como una fila de la tabla
 foreach ($rows as $row) {
-
 
     $paciente = $row[0];
     $fecha = $row[2];
     $importe = $row[1];
     $haPagado = $row[3];
 
-    // URL de los iconos
     $iconoBorrar = 'iconos/x.png';
     $iconoModificar = 'iconos/pencil.png';
     $iconAñadir = 'iconos/add.png';
 }
-
-function formatearFecha($fecha) {
-	$newDate = date("F d, Y", strtotime($fecha));
-
-	return $fecha;
-}
-
-function formatearMoneda($importe) {
-	$nombre_format = number_format($importe, 2, '\'', '.');
-	return $importe . " €";
-}
-
 
 ?>
 <!DOCTYPE html>
@@ -40,7 +22,7 @@ function formatearMoneda($importe) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla de Pacientes</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
 
@@ -62,6 +44,7 @@ function formatearMoneda($importe) {
             $csvFile = 'data.csv';
             $rows = array_map('str_getcsv', file($csvFile));
 
+            
             foreach ($rows as $row) {
                 $paciente = $row[0];
                 $fecha = $row[2];
