@@ -18,8 +18,19 @@ foreach ($rows as $row) {
     // URL de los iconos
     $iconoBorrar = 'iconos/x.png';
     $iconoModificar = 'iconos/pencil.png';
+    $iconAñadir = 'iconos/add.png';
 }
-    
+
+function formatearFecha($fecha) {
+	$newDate = date("F d, Y", strtotime($fecha));
+
+	return $fecha;
+}
+
+function formatearMoneda($importe) {
+	$nombre_format = number_format($importe, 2, '\'', '.');
+	return $importe . " €";
+}
 
 
 ?>
@@ -43,6 +54,7 @@ foreach ($rows as $row) {
                 <th>Ha Pagado</th>
                 <th>Borrar</th>
                 <th>Modificar</th>
+                <th>Añadir</th>
             </tr>
         </thead>
         <tbody>
@@ -58,14 +70,16 @@ foreach ($rows as $row) {
 
                 $iconoBorrar = 'Icons/x.png';
                 $iconoModificar = 'Icons/pencil.png';
+                $iconAñadir = 'Icons/add.png';
 
                 echo '<tr>
                         <td>' . $paciente . '</td>
                         <td>' . $fecha . '</td>
                         <td>' . $importe . '</td>
                         <td>' . ($haPagado == 'True' ? 'Sí' : 'No') . '</td>
-                        <td><img class="icon" src="' . $iconoBorrar . '" alt="Borrar"></td>
-                        <td><img class="icon" src="' . $iconoModificar . '" alt="Modificar"></td>
+                        <td><a href="Borrar_visita.php"><img src="' . $iconoBorrar . '" style="width: 20px; height: 20px;" alt="Borrar"></a></td>
+                        <td><a href="Modificar_visita.php"><img src="' . $iconoModificar . '" style="width: 20px; height: 20px;" alt="Modificar"></a></td>
+                        <td><a href="Añadir_visita.php"><img src="' . $iconAñadir . '" style="width: 20px; height: 20px;" alt="Añadir"></a></td>
                       </tr>';
             }
             ?>
