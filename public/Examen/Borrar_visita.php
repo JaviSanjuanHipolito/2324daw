@@ -1,6 +1,7 @@
 <?php
 
 require_once "autoloader.php";
+
 $clinica = new $clinica("data.csv");
 
 if (isset($_GET['id'])) {

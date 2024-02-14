@@ -46,4 +46,14 @@ img {
     vertical-align: middle;
 }
 
+.precio {
+    background-color: #D2E4F5;
+}
 
+.pagado{
+    color: green;
+}
+
+.noPagado{
+    color: red;
+}
