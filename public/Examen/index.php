@@ -1,8 +1,7 @@
 <?php
 require_once "autoloader.php";
 
-$csvFile = 'data.csv';
-$visitas = new clinic($csvFile);
+$clinic = new Clinic();
 
 ?>
 <!DOCTYPE html>
@@ -30,7 +29,7 @@ $visitas = new clinic($csvFile);
             </tr>
         </thead>
         <tbody>
-            <?php  $datos = $visitas->drawVisits(); ?>
+            <?php  $clinic->drawVisits(); ?>
         </tbody>
     </table>
 </div>
