@@ -1,6 +1,6 @@
 <?php
 
-$data = [
+/*$data = [
     ["Patient42", 486, "2010-07-31", false],
     ["Patient47", 248, "2023-01-05", false],
     ["Patient19", 387, "2018-05-30", true],

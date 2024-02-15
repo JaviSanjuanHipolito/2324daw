@@ -1,0 +1,165 @@
+/* Contenido de modificar.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3498db;
+    text-align: center; /* Centrar el título */
+}
+
+label {
+    display: inline-block; /* Para alinear en línea */
+    margin-bottom: 8px;
+    width: 20%; /* Ajusta el ancho según tus necesidades */
+}
+
+input {
+    display: inline-block; /* Para alinear en línea */
+    width: 75%; /* Ajusta el ancho según tus necesidades */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 0;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px; /* Ajusta el padding según tus necesidades para hacer el botón más largo */
+    width: 100%; /* Hace que el botón ocupe el ancho completo del contenedor */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; /* Para centrar el botón */
+    margin: 10px auto 0; /* Para centrar el botón y agregar espacio arriba */
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Contenido de index.css */
+.mi-tabla {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+td:last-child a {
+    margin-right: 5px;
+}
+
+td:last-child a:hover {
+    background-color: #e74c3c;
+    border-radius: 4px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.precio {
+    background-color: #D2E4F5;
+}
+
+.pagado{
+    color: green;
+}
+
+.noPagado{
+    color: red;
+}
+
+/* Contenido de añadir.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #3498db;
+    text-align: center; /* Centrar el título */
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: inline-block; /* Para alinear en línea */
+    margin-bottom: 8px;
+    width: 20%; /* Ajusta el ancho según tus necesidades */
+}
+
+input {
+    display: inline-block; /* Para alinear en línea */
+    width: 75%; /* Ajusta el ancho según tus necesidades */
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 0;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px; /* Ajusta el padding según tus necesidades para hacer el botón más largo */
+    width: 100%; /* Hace que el botón ocupe el ancho completo del contenedor */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Para centrar el botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
